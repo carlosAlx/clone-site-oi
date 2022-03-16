@@ -1,19 +1,18 @@
 .banner {
     padding-bottom: 20px;
     padding-top: 20px;
-    border: 2px solid black;
-    height: 300px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    background-color: aquamarine;
 }
 
 .img-banner {
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.section-banner {
-    padding-top: 20px;
-    position: relative;
-}
-
 
 .h-green {
     border-radius: 3px;
@@ -24,3 +23,47 @@
     background-color: rgb(99, 190, 8);
     color: white;
 }
+
+/* slide*/
+.slide{
+   margin-left: auto;
+   margin-right: auto; 
+   overflow: hidden; 
+}
+
+.nav-slide {
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    right: 0;  
+}
+
+.nav-slide a {
+    display: block;
+    padding: 20px;
+    border-top: 1px groove;
+    border-bottom: 1px groove;
+    background-color: transparent;
+    text-align: center;
+}
+.nav-slide a:hover {
+    color: black;
+    background-color: white;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
