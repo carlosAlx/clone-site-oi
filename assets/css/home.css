@@ -1,0 +1,26 @@
+.banner {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 2px solid black;
+    height: 300px;
+}
+
+.img-banner {
+    padding: 10px;
+}
+
+.section-banner {
+    padding-top: 20px;
+    position: relative;
+}
+
+
+.h-green {
+    border-radius: 3px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.h-green:hover {
+    background-color: rgb(99, 190, 8);
+    color: white;
+}
