@@ -8,6 +8,9 @@ body {
 img {
     width: auto;
 }
+ul{
+    list-style: none;
+}
 
 section {
     padding-bottom: 20px;
@@ -159,14 +162,12 @@ section {
 /*----*/
 
 /*---- footer */
+.footer{   
+    background-color: rgb(245, 244, 244);
+    padding: 20px;
+}
 .footer div {
     justify-content: space-between;
-    display: flex;
-}
-
-.footer ul {
-    list-style-type: none;
-
 }
 
 @media (max-width:768px) {
@@ -177,14 +178,12 @@ section {
     .footer-rodape a {
         display: block;
     }
-
 }
 
 .footer-rodape {
-    padding: 10px;
-    border: 1px solid;
+    padding: 30px;
     display: flex;
-    justify-content: space-around;
+    border-top: 1px solid rgb(167, 167, 167);
 }
 
 .footer-rodape a {}
@@ -195,7 +194,6 @@ section {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
     display: block;
 }
 

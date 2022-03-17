@@ -43,17 +43,17 @@
                    </div>
                 </div>
                 <div class=" col-75">
-                    <div class="row h-green">
+                    <div class="row h-green b-green">
                         <div class="col-50">
                             <h2>Internet OI fibra</h2>
                             <p>Contrate planos de internet residencial com até 1 Giga de velocidade e tenha a melhor experiência pra trabalhar ou estudar online,
                                 jogar, assistir filmes e séries com a internet fibra ótica da Oi.</p>
                         </div>
-                        <div class="col-50">
+                        <div class="col-50 b-green">
                             <img src="/assets/img/img-conta-online-lista.png">                       
                         </div>
                     </div>
-                    <div class="row h-green">
+                    <div class="row h-green b-green">
                         <div class="col-50">
                             <h2>Internet OI fibra</h2>
                             <p>Contrate planos de internet residencial com até 1 Giga de velocidade e tenha a melhor experiência pra trabalhar ou estudar online,
@@ -63,7 +63,7 @@
                             <img src="/assets/img/img-conta-online-lista.png">   
                         </div>
                     </div>
-                    <div class="row h-green">
+                    <div class="row h-green b-green">
                         <div class="col-50">
                             <h2>Internet OI fibra</h2>
                             <p>Contrate planos de internet residencial com até 1 Giga de velocidade e tenha a melhor experiência pra trabalhar ou estudar online,
