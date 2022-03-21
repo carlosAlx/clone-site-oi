@@ -11,16 +11,16 @@
         <?php require('template.html'); ?>
         <section class="section-banner" id="banner">
             <div class="banner" id="banner">
-                <div class="slide fade">
+                <div class="slide">
                     <img class="img-banner" src="/assets/img/phone-oferta-banner.png">
                 </div>
-                <div  class="slide fade">
+                <div  class="slide">
                     <img class="img-banner" src="/assets/img/internet-Bg_SemMion360.png">
                 </div>
-                <div  class="slide fade">
+                <div  class="slide ">
                     <img class="img-banner" src="/assets/img/controle-celular-controle-100gb_360.png">
                 </div>                  
-                <div class="nav-slide fade">
+                <div class="nav-slide">
                     <i></i>
                     <a onclick="plusSlides(-1)"><i class="fa solid fa-angle-up"></i></a> 
                     <a class="dots" onclick="currentSlide(1)">Internet OI Fibra</a>

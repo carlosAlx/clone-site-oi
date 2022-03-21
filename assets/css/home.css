@@ -9,9 +9,9 @@
 }
 
 .img-banner {
-    padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid;
 }
 
 .h-green {
@@ -19,25 +19,31 @@
 }
 
 .h-green:hover {
-    background-image: linear-gradient(to right, rgb(10, 230, 10), green);  
+    background-image: linear-gradient(to right, rgb(10, 230, 10), green);
     color: white;
 }
-.b-green{
+
+.b-green {
     border-bottom: 1px solid rgb(195, 197, 195);
 }
 
 /* slide*/
-.slide{
-   margin-left: auto;
-   margin-right: auto; 
-   overflow: hidden; 
+.slide {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+   
+
+    border: 1px solid;
+    width: 100%;
+    justify-content: center;
 }
 
 .nav-slide {
     position: absolute;
     padding: 10px;
     overflow: hidden;
-    right: 0;  
+    right: 0;
 }
 
 .nav-slide a {
@@ -48,24 +54,26 @@
     background-color: transparent;
     text-align: center;
 }
+
 .nav-slide a:hover {
     color: black;
     background-color: white;
 }
+
 /* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
+.fade {}
+
+@keyframes fade {
+    from 
+    {
+       height: 0;
+       width: ;
+    }
+
+    to 
+    {
+        height: 100%;
+        background-color: antiquewhite;
+
+    }
+}
